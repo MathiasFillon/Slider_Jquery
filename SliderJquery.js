@@ -18,7 +18,7 @@ $('.next').click(function(){
         $currentImg.css('display', 'block'); 
     }
     else{
-        i = indexImg;
+        i = 0;
     }
 });
 $('.prev').click(function(){ 
@@ -29,7 +29,7 @@ $('.prev').click(function(){
         $currentImg.css('display', 'block');
     }
     else{
-        i = 0;
+        i = indexImg;
     }
 });
 function slideImg(){
